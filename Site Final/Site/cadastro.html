@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>Cadastro</title>
+		<link rel="stylesheet" href="cadastro_style.css">
+	</head>
+	<body>
+		<header>
+			<a href="index.html">
+		<img class="logo" src="./img/logo_web.png">	</a>
+		</header>
+		<article>
+			<form class="cadastro">
+					<p class="titulo_cadastro">Cadastre sua casa aqui</p>
+					<p class="texto_preencher">Nome:<input type = "text" name = "nome"></p>
+					<p class="texto_preencher">Bairro:<input type="text" name="bairro"></p>
+					<p id="ruanumero">Rua e numero:<input type = "text" name = "rua"></p>
+					<p class="texto_preencher">(N) Moradores:<input type="number" name="moradores"></p>
+					<p class="texto_preencher">Email:<input type="email" name="email"></p>
+					<p class="titulo_cadastro">Dias da semana que costuma colocar o lixo para fora</p>
+					<input class="marcadores" type="radio" name="dia_lixo">Fim de Semana <br>
+					<input class="marcadores" type="radio" name="dia_lixo">Meio da Semana <br>
+					<input class="marcadores" type="radio" name="dia_lixo">Meio e Fim de Semana <br>
+					<p class="titulo_cadastro">Horario que costuma coloca o lixo para fora</p>
+					<select name = "horario">
+						<optgroup label = "Periodos">
+						<option value = "manha">Manha</option>
+						<option value = "tarde">Tarde</option>
+						<option value = "noite">Noite</option>
+					</optgroup>
+					</select> <br>
+					<p class="titulo_cadastro">Tipos de reciclaveis</p>
+					<input class="marcadores" type="checkbox" name="plastico">Plastico <br>
+					<input class="marcadores" type="checkbox" name="ferro">Ferro <br>
+					<input class="marcadores" type="checkbox" name="aluminio">Aluminio <br>
+					<input class="marcadores" type="checkbox" name="cobre">Cobre <br>
+					<input class="marcadores" type="checkbox" name="papelao">Papelao <br>
+					<input class="marcadores" type="checkbox" name="bateria">Bateria <br>
+					<input class="marcadores" type="checkbox" name="componente_eletronico">Componentes Eletronicos<br>
+					<p class="titulo_cadastro">Condição do lixo</p>
+					<input class="marcadores" type="radio" name="separar">Separado<br>
+					<input class="marcadores" type="radio" name="separar">Misturado<br><br>
+					<input type="submit" name="Enviar">
+					<input type="reset" name="Cancelar">
+			</form>
+		</article>
+	</body>
+</html>

@@ -1,0 +1,80 @@
+body{
+	width: 1880px;
+	height: 910px;
+  background:#98c88b ;
+}
+header{
+  width: 100%;
+  height: 44%;
+  text-align: center;
+}
+div{
+  width: 100%;
+  height: 50%;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.logo-container {
+    text-align: center;
+    margin-top: -80px; 
+}
+
+  
+  .mini-logos {
+    text-align: center;
+    margin-top: 20px; 
+    color:green;
+    margin-bottom: 20px;
+    
+
+  }
+  .mini-logos i {
+    margin-right: 50px;
+    font-size: 30px;
+    display: inline-block;
+  }
+a{
+  color:green;
+
+}
+i{
+  color: black;
+}
+
+a:visited{
+  color:black;
+}
+
+
+  .logo-lixo{
+ display:block;
+margin-top: 40px;
+ text-align: center;
+ 
+}
+ .logo-lixo-img{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+
+.texto-rodape{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.logo{
+     width: 30%;
+}
+footer{
+    margin:0;
+    border:none;
+    padding:0;
+    color:white; 
+}

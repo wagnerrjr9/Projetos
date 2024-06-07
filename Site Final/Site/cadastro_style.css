@@ -1,0 +1,30 @@
+body{
+	width: 1880px;
+	height: 910px;
+	background:#98c88b ;
+}
+header{
+	width: 100%;
+	height: 15%;
+	text-align: center;
+}
+article{
+	width: 30%;
+	height: 84%;
+	background: #8fbc8f;
+	margin: 0 auto;
+	border-width: 1px;
+	border-style: groove;
+	border-color: black;
+	border-radius: 10px;
+	font-family: Times New Roman;
+}
+.cadastro{
+	margin-left: 18%;
+}
+.titulo_cadastro{
+	font-size: 1.1em;
+}
+.logo{
+     width: 30%;
+}
